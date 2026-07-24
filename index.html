@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css" type="text/css">
+    <title>Swapnil Singh</title>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Swapnil Singh</h1>
+        </div>
+        <div>
+            <nav>
+                <a href="#About">About</a> 
+                <a href="#Projects">Projects</a> 
+                <a href="#Contact">Contact</a> 
+            </nav>
+        </div>
+    </header>
+
+    <aside>
+        <blockquote>
+            <p>"I know of no better life purpose than to perish attempting the great and impossible."</p>
+            <p>- Friedrich Nietzsche</p>
+        </blockquote>
+    </aside>
+
+
+    <main>
+        <section id="About">
+            <h2>About</h2>
+            <div class="content">
+                <p>I am Swapnil Singh, a Computer Science graduate from the University of Texas at Dallas (May, 2026) with a passion for building intelligent, scalable software. With a 3.85 GPA and a strong foundation in Artificial Intelligence and Machine Learning, I enjoy solving complex problems at the intersection of mathematics and code.</p>
+                <figure>
+                    <img
+                        src="profilePic.webp"
+                        alt="Portrait of Swapnil Singh"
+                        width="800"
+                        height="1200"
+                        decoding="async"
+                    />
+                </figure>
+            </div>
+        </section>
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>Disaster Assessment Dashboard</h3>
+                    <p class="project-summary">A high-performance, full-stack spatial intelligence application designed to analyze building-level damage from Hurricane Florence using interactive mapping, satellite imagery overlays, and AI-driven classification.</p>
+                    <ul class="tech-stack" aria-label="Technologies used">
+                        <li>Python</li>
+                        <li>FastAPI</li>
+                        <li>JavaScript</li>
+                        <li>React</li>
+                        <li>Leaflet</li>
+                        <li>PostgreSQL</li>
+                        <li>Google Gemini VLM</li>
+
+
+                    </ul>
+                    <div class="project-links">
+                        <!-- Replace these two URLs with the real project links. -->
+                        <a class="project-link secondary-link"
+                           href="https://github.com/UTDisaster"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="View the Disaster Assessment Dashboard source code on GitHub">
+                            GitHub <span aria-hidden="true">↗</span>
+                        </a>
+                        <a class="project-link primary-link"
+                           href="https://frontend-lime-seven-22.vercel.app/"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="Open the live demo of Disaster Assessment Dashboard">
+                            Demo <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <h3>Library Management System</h3>
+                    <p class="project-summary">A desktop application for managing books, members, checkouts, returns, and inventory through a reliable, searchable database.</p>
+                    <ul class="tech-stack" aria-label="Technologies used">
+                        <li>Python</li>
+                        <li>SQLite</li>
+                        <li>Textual</li>
+                    </ul>
+                    <div class="project-links">
+                        <!-- This project has no live demo, so only GitHub is shown. -->
+                        <a class="project-link secondary-link"
+                           href="https://github.com/Swapnil11112003/Relational-Library-Management-System"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="View the Library Management System source code on GitHub">
+                            GitHub <span aria-hidden="true">↗</span>
+                        </a>
+                    </div>
+                </article>
+
+                <!-- Replace this card's sample content with your third project. -->
+                <article class="project-card">
+                    <h3>Photo Sharing App</h3>
+                    <p class="project-summary">A full-stack Node.js and React application featuring secure user authentication, MongoDB data management, and server-state synchronization via TanStack Query.</p>
+                    <ul class="tech-stack" aria-label="Technologies used">
+                        <li>Node.js</li>
+                        <li>React</li>
+                        <li>MongoDB</li>
+                        <li>React</li>
+                        <li>Vite</li>
+                    </ul>
+                    <div class="project-links">
+                        <a class="project-link secondary-link"
+                           href="https://github.com/Swapnil11112003/Photo-Sharing-App"
+                           target="_blank"
+                           rel="noopener noreferrer"
+                           aria-label="View the third project source code on GitHub">
+                            GitHub <span aria-hidden="true">↗</span>
+                        </a>
+                        
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="Contact">
+            <h2>Contact</h2>
+            <form action="#" method="post">
+                <label for="name">Name: </label>
+                <input type="text" id="name" name="name" placeholder="Enter name here" required />
+                <br>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" placeholder="person@email.com" required />
+                <br>
+                <label for="message">Message: </label>
+                <textarea id="message"  name="message" placeholder="A short message" required></textarea>
+                <br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Swapnil Singh. All Rights Reserved.</p>
+        <a href="https://www.linkedin.com/in/singhswapnil11/">Find me on LinkedIn</a>
+    </footer>
+</body>
+</html>
